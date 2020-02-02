@@ -82,7 +82,7 @@ h1, h2, h3, p {
     padding: 13px 0;
     height: 51px;
 
-    background-color: #27283d;
+    background-color: #2b2b40;
 }
 
 .logo__header {
@@ -117,6 +117,11 @@ h1, h2, h3, p {
     cursor: pointer;
 }
 
+.contacts__workhours:hover {
+    color: #8ad0f6;
+    transition: .3s;
+}
+
 .main-content {
     margin-bottom: 65px;
 }
@@ -135,6 +140,7 @@ h1, h2, h3, p {
 }
 
 .sidebar-nav {
+    padding-top: 60px;
     width: 175px;
 }
 
@@ -142,7 +148,80 @@ h1, h2, h3, p {
     width: 877px;
 }
 
-/* nav  */
+.nav__item {
+    margin-bottom: 25px;
+}
+
+.nav__link {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #cb2376;
+}
+
+.nav__link:hover {
+    color:#000;
+    transition: .3s;
+}
+
+.nav__link::before {
+    content: "";
+    display: inline-block;
+    margin-right: 17px;
+    width: 20px;
+    height: 18px;
+    background: no-repeat left center / contain;
+    vertical-align: middle;
+}
+
+.nav__link > span {
+    vertical-align: middle;
+}
+
+.nav__item--icon--main .nav__link::before {
+    background-image: url(../img/nav_main.png);
+}
+
+.nav__item--icon--main .nav__link:hover::before {
+    background-image: url(../img/nav_main_hover.png);
+    transition: .3s;
+}
+
+.nav__item--icon--star .nav__link::before {
+    background-image: url(../img/nav_star.png);
+}
+
+.nav__item--icon--star .nav__link:hover::before {
+    background-image: url(../img/nav_star_hover.png);
+    transition: .3s;
+}
+
+.nav__item--icon--wallet .nav__link::before {
+    background-image: url(../img/nav_wallet.png);
+}
+
+.nav__item--icon--wallet .nav__link:hover::before {
+    background-image: url(../img/nav_wallet_hover.png);
+    transition: .3s;
+}
+
+.nav__item--active .nav__link {
+    color: #000;
+}
+
+.nav__item--active.nav__item--icon--main .nav__link::before {
+    background-image: url(../img/nav_main_hover.png);
+}
+
+
+.nav__item--active.nav__item--icon--star .nav__link::before {
+    background-image: url(../img/nav_star_hover.png);
+}
+
+.nav__item--active.nav__item--icon--wallet .nav__link::before {
+    background-image: url(../img/nav_wallet_hover.png);
+}
+
 
 .features {
     padding-top: 50px;
@@ -304,7 +383,7 @@ h1, h2, h3, p {
 }
 
 .pagination__link, .pagination__left, .pagination__right {
-    padding: 5px 8px;
+    padding: 4px 8px;
     font-weight: 700;
     color: #262424;
 
@@ -325,9 +404,14 @@ h1, h2, h3, p {
     cursor: default;
 }
 
+.pagination__link:hover {
+    color: #952663;
+    transition: .3s;
+}
+
 .footer {
     padding: 10px 0;
-    background-color: #27283d;
+    background-color: #2b2b40;
     color: #fff;
 } 
 
@@ -351,11 +435,11 @@ h1, h2, h3, p {
 }
 
 .logo_footer {
-    margin-right: 295px;
+    margin-right: 297px;
 }
 
 .socials {
-    width: 175px;
+    width: 173px;
 
     font-size: 14px;
     font-weight: bold;
@@ -389,8 +473,9 @@ h1, h2, h3, p {
     border-radius: 50%;
 }
 
-.social__link--active {
+.social__link:hover {
     background-color: #cb2376;
+    transition: .3s;
 }
 
 .social__img {
