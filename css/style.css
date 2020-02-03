@@ -127,6 +127,8 @@ h1, h2, h3, p {
 }
 
 .main-top {
+    margin-bottom: 50px;
+
     background-color: #27283d;
 }
 
@@ -140,7 +142,7 @@ h1, h2, h3, p {
 }
 
 .sidebar-nav {
-    padding-top: 60px;
+    padding-top: 10px;
     width: 175px;
 }
 
@@ -226,9 +228,7 @@ h1, h2, h3, p {
     background-image: url(../img/nav_wallet_hover.png);
 }
 
-
 .features {
-    padding-top: 50px;
     margin-bottom: 68px;
 }
 
@@ -263,7 +263,7 @@ h1, h2, h3, p {
     padding-left: 40px;
 }
 
-.feature__icon {
+.features__icon {
     position: relative;
     width: 68px;
     height: 68px;
@@ -274,14 +274,14 @@ h1, h2, h3, p {
     border-radius: 50%;
 }
 
-.feature__icon-img {
+.features__icon-img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.feature__title {
+.features__title {
     font-size: 10.78px;
     font-weight: bold;
     text-transform: uppercase;
@@ -367,8 +367,9 @@ h1, h2, h3, p {
     line-height: 1.67;
 }
 
-.pagination__controlls, .pagination__left, .pagination__right, .pagination__list,  .pagination__item {
+.pagination__display, .pagination__controlls, .pagination__left, .pagination__right, .pagination__list,  .pagination__item {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .pagination {
