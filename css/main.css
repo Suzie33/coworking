@@ -19,17 +19,6 @@
 @import url('blocks/socials.css');
 
 
-.page-content, .nav {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.copyright, .logo__footer, .socials {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
 
 
 

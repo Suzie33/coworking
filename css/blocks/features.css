@@ -42,3 +42,21 @@
     text-transform: uppercase;
     letter-spacing: 0.24em;
 }
+
+.features__description {
+    padding-top: 18px;
+
+    line-height: 1.67;
+}
+
+.features__description-list {
+    padding-top: 7px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.features__description-item::before {
+    content: "•";
+    color: #b03665;
+    padding-right: 30px;
+}

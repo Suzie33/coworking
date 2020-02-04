@@ -1,5 +1,7 @@
 .socials {
     width: 173px;
+    display: inline-block;
+    vertical-align: middle;
 
     font-size: 14px;
     font-weight: bold;

@@ -1,6 +1,9 @@
 .nav {
     padding-top: 10px;
     width: 175px;
+    
+    display: inline-block;
+    vertical-align: top;
 }
 
 .nav__item {

@@ -4,6 +4,8 @@
 
 .logo__footer {
     margin-right: 297px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .logo__link {
