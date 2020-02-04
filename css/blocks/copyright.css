@@ -1,0 +1,13 @@
+.copyright {
+    margin-right: 210px;
+    width: 270px;
+
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyright__link {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+}

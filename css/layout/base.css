@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 18px;
+    line-height: 1.42;
+    color: #262626;
+    background-color: #fff;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.wrapper {
+    overflow: hidden;
+    min-width: 1100px;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__content {
+    flex-grow: 1;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: normal;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+   }
+

@@ -1,0 +1,38 @@
+@import url('layout/fonts.css');
+@import url('layout/normalize.css');
+@import url('layout/base.css');
+
+@import url('blocks/header.css');
+@import url('blocks/logo.css');
+@import url('blocks/contacts.css');
+@import url('blocks/main-content.css');
+@import url('blocks/main-top.css');
+@import url('blocks/nav.css');
+@import url('blocks/page-content.css');
+@import url('blocks/section-title.css');
+@import url('blocks/features.css');
+@import url('blocks/feature-description.css');
+@import url('blocks/news.css');
+@import url('blocks/pagination.css');
+@import url('blocks/footer.css');
+@import url('blocks/copyright.css');
+@import url('blocks/socials.css');
+
+
+.page-content, .nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.copyright, .logo__footer, .socials {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+

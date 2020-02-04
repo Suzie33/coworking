@@ -1,0 +1,14 @@
+.section-title {
+    font-weight: bold;
+    font-size: 49px;
+
+    color: #262424;
+}
+
+.section-title--margin--s {
+    margin-bottom: 48px;
+}
+
+.section-title--margin--m {
+    margin-bottom: 64px;
+}
