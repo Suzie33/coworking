@@ -1,12 +1,9 @@
 .copyright {
-    margin-right: 210px;
+    margin-right: 200px;
     width: 270px;
 
     font-size: 14px;
     font-weight: 300;
-
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .copyright__link {

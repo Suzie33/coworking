@@ -1,13 +1,26 @@
 .pagination__display, .pagination__controlls, .pagination__left, .pagination__right, .pagination__list,  .pagination__item {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block;
+    vertical-align: middle; */
 }
 
 .pagination {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
 }
+
+.pagination__controlls {
+    display: flex;
+    align-items: center;
+}
+
+.pagination__list {
+    display: flex;
+    align-items: center;
+}
+
 
 .pagination__display {
     margin-right: 30px;

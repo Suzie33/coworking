@@ -2,20 +2,22 @@
     margin-bottom: 68px;
 }
 
-.features__item {
-    display: inline-block;
-    vertical-align: top;
+.features__list {
+    display: flex;
+}
 
+.features__item {
     padding-left: 20px;
-    padding-right: 22px;
-    width: 218px;
+    margin-right: 36px;
+    width: 238px;
 
     text-align: center;
 }
 
 .features__item:last-child {
-    width: 185px;
-    padding-left: 40px;
+    width: 220px;
+    padding-left: 20px;
+    margin-right: 0;
 }
 
 .features__icon {
