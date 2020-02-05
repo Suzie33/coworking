@@ -1,0 +1,17 @@
+.discount {
+    padding-top: 40px;
+    padding-bottom: 45px;
+
+    background: #27283d url("../../img/discount_bg.png") no-repeat 50% 50%;
+
+}
+
+.discount__text {
+    padding-left: 33px;
+    line-height: 1.67em;
+    color: #fff;
+}
+
+.discount__text strong {
+    color: #cb2376;
+}

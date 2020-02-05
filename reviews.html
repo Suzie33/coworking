@@ -14,9 +14,9 @@
 <body>
     <div class="wrapper">
         <div class="wrapper__content">
-            <header class="header">
-                <div class="container clearfix">
-                        <div class="logo logo__header">
+            <header class="header header--margin-buttom">
+                <div class="container header__container">
+                        <div class="logo">
                             <a href="#" class="logo__link">
                                 <img src="img/logo.png" width="99" height="51" alt="Логотип" class="logo__img">
                             </a>
@@ -31,7 +31,7 @@
             </header>
 
             <main class="main-content">
-                <div class="container">
+                <div class="container main-content__container">
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item nav__item--icon--main nav__item--active">
@@ -53,14 +53,14 @@
                                     <a href="#" class="breadcrumbs__item-link">Главная</a>
                                 </li>
                                 <li class="breadcrumds__item">
-                                    <a href="#" class="breadcrumbs__item-link">Отзывы</a>
+                                    <a href="#" class="breadcrumbs__item-link breadcrumbs__item-link--active">Отзывы</a>
                                 </li>
                             </ul>
                         </nav>
 
                         <section class="reviews">
-                            <h2 class="section-title">Отзывы</h2>
-                            <ul class="reviews__list">
+                            <h2 class="section-title section-title--margin--xs">Отзывы</h2>
+                            <ul class="news__list reviews__list">
                                 <li class="news__item">
                                     <div class="news__avatar">
                                         <div class="news__avatar-frame">
@@ -118,7 +118,6 @@
                                     </div>
                                 </li>
                             </ul>
-
                             <div class="pagination">
                                 <span class="pagination__display">Страница 1 из 7</span>
                                 <div class="pagination__controlls">
@@ -150,49 +149,57 @@
                                 </div>
                             </div>
                         </section>
-                        
-                        <section class="discount">
-                            <p class="discount__text">
-                                Для наших новых клиентов мы предлагаем скидку 50% на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
-                            </p>
-                        </section>
-
-                        <section class="feedback">
-                            <div class="container__s">
-                                <h2 class="section-title">Оставить отзыв</h2>
-                                <form action="#" class="feedback__form" method="POST">
-                                    <div class="feedback__form-group">
-                                        <label>Ваше имя
-                                            <input type="text" name="name" placeholder="Андрей">
-                                        </label>
-                                    </div>
-                                    <div class="feedback__form-group">
-                                        <label>Ссылка на профиль VK
-                                            <input type="url" name="vk_link" placeholder="vk.com/example">
-                                        </label>
-                                    </div>
-
-                                    <div class="feedback__form-group">
-                                        <label>Текст отзыва
-                                            <textarea name="feedback_text">Мне понравилось</textarea>
-                                        </label>
-                                    </div>
-
-                                    <div class="feedback__form-group">Отображать фото в отзыве?
-                                        <label>Да
-                                            <input type="radio" name="qustion-1" value="yes" checked>
-                                        </label>
-                                        <label>Нет
-                                            <input type="radio" name="qustion-1" value="no">
-                                        </label>
-                                    </div>
-
-                                    <input type="submit" value="Отправить">
-                                </form>
-                            </div>
-                        </section>
                     </div>
                 </div>
+
+                <section class="discount">
+                    <div class="container container--s">
+                        <p class="discount__text">
+                            Для наших новых клиентов мы предлагаем <strong>скидку 50%</strong> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+                        </p>
+                    </div>
+                </section>
+
+                <section class="feedback">
+                    <div class="container container--s">
+                        <div class="feedback__frame">
+                            <h2 class="section-title section-title--margin--xxs">Оставить отзыв</h2>
+                            <form action="#" class="form" method="POST">
+                                <div class="form__group">
+                                    <div class="form__group-left">
+                                        <label class="form__input-label" for="name">Ваше имя</label>
+                                        <input class="form__input" type="text" name="name" id="name" placeholder="Андрей">
+                                    </div>
+                                    
+                                    <div class="form__proup-right">
+                                        <label class="form__input-label" for="vk_link">Ссылка на профиль VK</label>
+                                        <input class="form__input" type="url" name="vk_link" id="vk_link" placeholder="vk.com/example">
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div class="form__group">
+                                    <label class="form__textarea-label" for="feedback_text">Текст отзыва</label>
+                                    <textarea class="form__textarea" rows="5" name="feedback_text" id="feedback_text">Мне понравилось</textarea>
+                                </div>
+                            
+                                <div class="form__group">
+                                    <div class="form__radio-area">
+                                        <span class="form__radio-text">Отображать фото в отзыве?</span>
+                                        <label class="form__radio-label" for="radio_yes">Да</label>
+                                        <input class="form__radiobutton" type="radio" name="question-photo" id="radio_yes" value="yes" checked>
+                                        
+                                        <label class="form__radio-label" for="radio_no">Нет</label>
+                                        <input class="form__radiobutton" type="radio" name="question-photo" id='radio_no' value="no">
+                                    </div>
+
+                                    <input class='form__button' type="submit" value="Отправить">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                
             </main>
         </div>
 

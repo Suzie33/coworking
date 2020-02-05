@@ -12,3 +12,11 @@
 .section-title--margin--m {
     margin-bottom: 64px;
 }
+
+.section-title--margin--xs {
+    margin-bottom: 33px;
+}
+
+.section-title--margin--xxs {
+    margin-bottom: 15px;
+}

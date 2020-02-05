@@ -1,5 +1,11 @@
+.news {
+    margin-bottom: 68px;
+}
+
 .news__list {
     margin-bottom: 58px;
+
+    font-family: "Roboto", sans-serif;
 }
 
 .news__item {
@@ -26,14 +32,13 @@
 
 .news__content {
     padding-left: 20px;
-    width: 686px;
+    width: 720px;
 }
 
 .news__content time {
     margin-bottom: 6px;
     display: block;
 
-    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 14px;
 
@@ -43,14 +48,12 @@
 .news__content h3 {
     margin-bottom: 10px;
 
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
 }
 
 .news__content p {
-    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 1.67;

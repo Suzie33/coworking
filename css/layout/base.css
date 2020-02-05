@@ -30,20 +30,24 @@ body {
 .container {
     width: 1060px;
     margin: 0 auto;
+}
+
+.container--s{
+    width: 700px;
+}
+
+.header__container, .footer__container {
     display: flex;
+    align-items: center;
+}
+
+.header__container {
     justify-content: space-between;
 }
 
 .main-content__container {
+    display: flex;
     justify-content: flex-start;
-}
-
-.header__container {
-    align-items: center;
-}
-
-.footer__container {
-    align-items: center;
 }
 
 *, ::before, ::after {

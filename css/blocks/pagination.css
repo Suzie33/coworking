@@ -1,12 +1,8 @@
-.pagination__display, .pagination__controlls, .pagination__left, .pagination__right, .pagination__list,  .pagination__item {
-    /* display: inline-block;
-    vertical-align: middle; */
-}
-
 .pagination {
     display: flex;
     justify-content: center;
     align-items: center;
+
     font-family: "Roboto", sans-serif;
     font-size: 14px;
 }

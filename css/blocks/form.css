@@ -1,0 +1,41 @@
+.form__group {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 17px;
+
+    font-size: 14px;
+    font-weight: 300;
+    color: #262424;
+}
+
+.form__group-left {
+    margin-right: 20px;
+}
+
+.form__input {
+    padding: 10px;
+    width: 270px;
+
+    border: none;
+    border-radius: 2px;
+}
+
+.form__input-label, .form__textarea-label, .form__radio-text {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.form__textarea-label {
+    display: block;
+}
+
+.form__textarea {
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid #cb2376;
+    border-radius: 2px;
+
+    resize: none;
+}
