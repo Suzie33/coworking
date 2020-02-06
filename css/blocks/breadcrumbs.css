@@ -36,4 +36,6 @@
 .breadcrumbs__item-link--active {
     color: #262424;
     text-decoration: none;
+
+    cursor: default;
 }

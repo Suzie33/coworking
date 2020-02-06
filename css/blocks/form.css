@@ -57,3 +57,8 @@
 
     cursor: pointer;
 }
+
+.form__button:hover {
+    background-color: #cb2376;
+    transition: .3s;
+}
