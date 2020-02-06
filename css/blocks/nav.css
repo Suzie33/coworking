@@ -1,6 +1,9 @@
 .nav {
-    padding-top: 10px;
     width: 180px;
+}
+
+.nav--padding-top {
+    padding-top: 10px;
 }
 
 .nav__item {
@@ -14,6 +17,7 @@
 .nav__link {
     font-size: 12px;
     font-weight: 700;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #cb2376;
 }
@@ -39,11 +43,15 @@
 
 .nav__item--icon--main .nav__link::before {
     background-image: url(../../img/nav_main.png);
+    width: 17px;
+    height: 15px;
 }
 
 .nav__item--icon--main .nav__link:hover::before {
     background-image: url(../../img/nav_main_hover.png);
     transition: .3s;
+    width: 17px;
+    height: 15px;
 }
 
 .nav__item--icon--star .nav__link::before {
@@ -70,6 +78,8 @@
 
 .nav__item--active.nav__item--icon--main .nav__link::before {
     background-image: url(../../img/nav_main_hover.png);
+    width: 17px;
+    height: 15px;
 }
 
 

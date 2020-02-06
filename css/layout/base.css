@@ -41,7 +41,7 @@ body {
     align-items: center;
 }
 
-.header__container {
+.header__container, .footer__container {
     justify-content: space-between;
 }
 
