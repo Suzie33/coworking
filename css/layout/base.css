@@ -36,18 +36,14 @@ body {
     width: 700px;
 }
 
-.header__container, .footer__container {
-    display: flex;
-    align-items: center;
-}
-
-.header__container, .footer__container {
-    justify-content: space-between;
-}
-
-.main-content__container {
+.container--flex {
     display: flex;
     justify-content: flex-start;
+}
+
+.header__container, .footer__container {
+    align-items: center;
+    justify-content: space-between;
 }
 
 *, ::before, ::after {
