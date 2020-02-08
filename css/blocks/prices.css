@@ -1,0 +1,91 @@
+.prices__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -55px;
+}
+
+.prices__item {
+    width: calc(100% / 3 - 55px);
+    margin-right: 55px;
+    margin-bottom: 45px;
+
+    text-align: center;
+}
+
+.prices__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    z-index: 10;
+
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #8ad0f6;
+}
+
+.prices__title span {
+    display: block;
+    color: #cb2476;
+}
+
+.prices__rate {
+    font-weight: 700;
+}
+
+.prices__decription {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.prices__picture {
+    position: relative;
+
+    margin-bottom: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.prices__picture-img {
+    width: 100%;
+    height: 153px;
+
+    background: url("../../img/prices1.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.prices__picture-img-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 43, 64, 0.85);
+}
+
+.prices__picture-img--img2 {
+    background: url("../../img/prices2.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.prices__picture-img--img3 {
+    background: url("../../img/prices3.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.prices__picture-img--img4 {
+    background: url("../../img/prices4.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.prices__picture-img--img5 {
+    background: url("../../img/prices5.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.prices__picture-img--img6 {
+    background: url("../../img/prices6.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.prices__rate {
+    margin-bottom: 5px;
+}
