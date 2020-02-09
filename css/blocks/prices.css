@@ -1,13 +1,13 @@
 .prices__list {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -55px;
+    margin-right: -35px;
 }
 
 .prices__item {
     width: calc(100% / 3 - 55px);
     margin-right: 55px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
 
     text-align: center;
 }
@@ -31,18 +31,20 @@
 }
 
 .prices__rate {
+    margin-bottom: 8px;
     font-weight: 700;
 }
 
 .prices__decription {
     font-weight: 300;
     font-size: 14px;
+    line-height: 1.5;
 }
 
 .prices__picture {
     position: relative;
 
-    margin-bottom: 20px;
+    margin-bottom: 23px;
     border-radius: 3px;
     overflow: hidden;
 }
@@ -86,6 +88,3 @@
     background-size: cover;
 }
 
-.prices__rate {
-    margin-bottom: 5px;
-}
