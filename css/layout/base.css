@@ -32,10 +32,6 @@ body {
     margin: 0 auto;
 }
 
-.container--s{
-    width: 700px;
-}
-
 .container--flex {
     display: flex;
     justify-content: flex-start;
@@ -44,6 +40,11 @@ body {
 .header__container, .footer__container {
     align-items: center;
     justify-content: space-between;
+}
+
+.discount__container {
+    align-items: center;
+    justify-content: center;
 }
 
 *, ::before, ::after {

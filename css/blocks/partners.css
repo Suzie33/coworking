@@ -1,12 +1,12 @@
 .partners {
     flex-grow: 1;
+
+    padding-bottom: 98px;
 }
 .partners__group {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
-    margin-bottom: 98px;
 }
 
 .partners__logo {

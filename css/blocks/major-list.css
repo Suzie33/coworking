@@ -19,14 +19,14 @@
     margin-bottom: 0;
 }
 
-.major-list__avatar-frame {
+.major-list__avatar {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.major-list__avatar--no-avatar .major-list__avatar-frame {
+.major-list__avatar--no-avatar {
     position: relative;
     background-color: #f5f5f5;
 }

@@ -7,7 +7,9 @@
 }
 
 .discount__text {
-    padding-left: 33px;
+    max-width: 634px;
+    margin: auto;
+
     line-height: 1.67em;
     color: #fff;
 }

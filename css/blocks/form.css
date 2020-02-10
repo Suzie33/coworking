@@ -11,6 +11,10 @@
     color: #262424;
 }
 
+.form__group:last-of-type {
+    margin-bottom: 0;
+}
+
 .form__input {
     padding: 13px 10px;
     width: 270px;
