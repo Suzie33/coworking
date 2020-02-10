@@ -1,0 +1,14 @@
+.feedback {
+    padding-top: 57px;
+    padding-bottom: 49px;
+}
+
+.feedback__frame {
+    padding: 35px 69px 51px;
+    margin: auto;
+    width: 700px;
+
+    background-color: #f4f4f4;
+    border-radius: 2px;
+}
+

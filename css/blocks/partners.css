@@ -1,0 +1,40 @@
+.partners {
+    flex-grow: 1;
+
+    padding-bottom: 98px;
+}
+.partners__group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.partners__logo {
+    width: 18%;
+    margin-right: 13%;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.partners__logo:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.partners__logo:nth-of-type(n+4) {
+    margin-bottom: 0;
+}
+
+.partners__logo-img {
+    margin: 0 auto;
+
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.partners__logo-img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+
+
