@@ -1,4 +1,5 @@
 .btn {
+    display: inline-block;
     padding: 16px 20px;
 
     font-size: 12px;
@@ -18,3 +19,18 @@
     background-color: #cb2376;
     transition: .3s;
 }
+
+.btn__intro {
+    padding: 11px 19px;
+
+    background-color: transparent;
+    color: #ec1e79;
+    border: 3px solid #ec1e79;
+    letter-spacing: 0.1em;
+}
+
+.btn__intro:hover {
+    color: #fff;
+    background-color: #ec1e79;
+}
+
