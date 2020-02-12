@@ -8,18 +8,3 @@
     font-style: 21px;
     font-weight: bold;
 }
-
-.contacts__workhours {
-    color: #cb2376;
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    text-decoration: underline;
-
-    cursor: pointer;
-}
-
-.contacts__workhours:hover {
-    color: #8ad0f6;
-    transition: .3s;
-}
