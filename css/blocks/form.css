@@ -57,8 +57,7 @@
 }
 
 .radio input {
-	position: absolute;
-	opacity: 0;
+	display: none;
 }
 
 .radio__visible {
@@ -89,6 +88,10 @@
 
 .radio input:checked + .radio__visible {
     border-color: #cb2376;
+}
+
+.radio input:checked + .radio__visible + .radio__text {
+    color: #cb2376;
 }
 
 .radio input:checked + .radio__visible:after {
