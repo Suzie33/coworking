@@ -33,6 +33,40 @@
     border-radius: 50%;
 }
 
+.socials__link::after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socials__link--img--vk::after {
+    width: 12px;
+    height: 7px;
+    background: url(../../img/sprite.png) no-repeat -157px -103px;
+}
+
+.socials__link--img--fb::after {
+    width: 6px;
+    height: 13px;
+    background: url(../../img/sprite.png) no-repeat -129px -62px;
+}
+
+.socials__link--img--tw::after {
+    width: 11px;
+    height: 9px;
+    background: url(../../img/sprite.png) no-repeat -157px -74px;
+}
+
+.socials__link--img--mail::after {
+    width: 12px;
+    height: 9px;
+    background: url(../../img/sprite.png) no-repeat -157px -45px;
+}
+
 .socials__link:hover {
     background-color: #cb2376;
     transition: .3s;

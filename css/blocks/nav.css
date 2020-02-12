@@ -47,34 +47,33 @@
 }
 
 .nav__item--icon--main .nav__link::before {
-    background-image: url(../../img/nav_main.png);
     width: 17px;
     height: 15px;
+    background: url(../../img/sprite.png) no-repeat -88px -100px;
 }
 
 .nav__item--icon--main .nav__link:hover::before {
-    background-image: url(../../img/nav_main_hover.png);
-    transition: .3s;
-    width: 17px;
-    height: 15px;
+    background-position: -157px -10px;
 }
 
 .nav__item--icon--star .nav__link::before {
-    background-image: url(../../img/nav_star.png);
+    width: 20px;
+    height: 18px;
+    background: url(../../img/sprite.png) no-repeat -10px -62px;
 }
 
 .nav__item--icon--star .nav__link:hover::before {
-    background-image: url(../../img/nav_star_hover.png);
-    transition: .3s;
+    background-position: -50px -62px;
 }
 
 .nav__item--icon--wallet .nav__link::before {
-    background-image: url(../../img/nav_wallet.png);
+    width: 19px;
+    height: 16px;
+    background: url(../../img/sprite.png) no-repeat -10px -100px;
 }
 
 .nav__item--icon--wallet .nav__link:hover::before {
-    background-image: url(../../img/nav_wallet_hover.png);
-    transition: .3s;
+    background-position: -49px -100px;
 }
 
 .nav__item--active .nav__link {
@@ -82,16 +81,13 @@
 }
 
 .nav__item--active.nav__item--icon--main .nav__link::before {
-    background-image: url(../../img/nav_main_hover.png);
-    width: 17px;
-    height: 15px;
+    background: url(../../img/sprite.png) no-repeat -157px -10px;
 }
 
-
 .nav__item--active.nav__item--icon--star .nav__link::before {
-    background-image: url(../../img/nav_star_hover.png);
+    background: url(../../img/sprite.png) no-repeat -50px -62px;
 }
 
 .nav__item--active.nav__item--icon--wallet .nav__link::before {
-    background-image: url(../../img/nav_wallet_hover.png);
+    background: url(../../img/sprite.png) no-repeat -49px -100px;
 }

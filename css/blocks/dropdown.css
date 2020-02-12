@@ -51,7 +51,7 @@
 .dropdown__block::before {
     content: "";
     display: block;
-    height: 300px;
+    height: 100px;
     left: 0;
     right: 0;
     top: -29px;
