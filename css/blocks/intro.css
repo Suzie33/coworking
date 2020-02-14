@@ -38,8 +38,10 @@
     flex-direction: column;
     animation-name: jackInTheBox;
     -webkit-animation-name: jackInTheBox;
-    animation-duration: .5s;
+    animation-duration: .6s;
 }
+
+
 
 @keyframes jackInTheBox {
     from {

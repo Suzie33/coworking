@@ -1,7 +1,3 @@
-.nav {
-    width: 180px;
-}
-
 .nav__list {
     display: flex;
     flex-direction: column;
@@ -90,4 +86,30 @@
 
 .nav__item--active.nav__item--icon--wallet .nav__link::before {
     background: url(../../img/sprite.png) no-repeat -49px -100px;
+}
+
+.nav--horizontal {
+    align-self: start;
+}
+
+.nav--horizontal .nav__list{
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav--horizontal .nav__item {
+    margin-bottom: 0;
+    margin-right: 90px;
+}
+
+.nav--horizontal .nav__item:last-child {
+    margin-right: 0px;
+}
+
+.nav--horizontal .nav__link {
+    color: inherit;
+}
+
+.nav--horizontal .nav__item--active .nav__link {
+    color: #cb2376;
 }
