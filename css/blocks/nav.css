@@ -105,3 +105,37 @@
 .nav--horizontal .nav__item:last-child {
     margin-right: 0px;
 }
+
+.nav--header .nav__link{
+    color: #fff;
+}
+
+.nav--header .nav__item--icon--star .nav__link::before {
+    background: url(../../img/nav_star_white.png);
+}
+
+.nav--header .nav__item--icon--wallet .nav__link::before {
+    background: url(../../img/nav_wallet_white.png);
+}
+
+.nav--header .nav__item--active.nav__item--icon--main .nav__link::before {
+    background: url(../../img/sprite.png) no-repeat -88px -100px;
+}
+
+.nav--header .nav__item--active .nav__link {
+    color: #cb2376;
+}
+
+.nav--header .nav__link:hover {
+    color:#cb2376;
+    transition: .3s;
+}
+
+.nav--header .nav__item--icon--star .nav__link:hover::before {
+    background: url(../../img/nav_star.png)
+}
+
+.nav--header .nav__item--icon--wallet .nav__link:hover::before {
+    background: url(../../img/nav_wallet.png)
+}
+
