@@ -105,11 +105,3 @@
 .nav--horizontal .nav__item:last-child {
     margin-right: 0px;
 }
-
-.nav--horizontal .nav__link {
-    color: inherit;
-}
-
-.nav--horizontal .nav__item--active .nav__link {
-    color: #cb2376;
-}

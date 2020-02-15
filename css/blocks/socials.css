@@ -1,8 +1,9 @@
 .socials {
-    width: 173px;
+    width: 100%;
 
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
 }
 
 .socials__title {

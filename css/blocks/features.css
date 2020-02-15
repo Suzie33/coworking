@@ -14,12 +14,7 @@
     text-align: center;
 }
 
-.features__item::after {
-    conte
-}
-
 .features__item:last-child {
-    width: 220px;
     padding-left: 20px;
     margin-right: 0;
 }
@@ -86,4 +81,26 @@
     content: "•";
     color: #b03665;
     padding-right: 30px;
+}
+
+.features__item--top {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.features__top-title {
+    margin-bottom: 22px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.features__item--top .features__description-list {
+    display: inline-block;
+}
+
+.features__item--bordered {
+    border: 1px solid #e8e8ec;
 }
