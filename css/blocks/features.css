@@ -90,13 +90,6 @@
     margin-bottom: 25px;
 }
 
-.features__top-title {
-    margin-bottom: 22px;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
 .features__item--top .features__description-list {
     display: inline-block;
 }
