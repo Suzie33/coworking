@@ -3,10 +3,15 @@
 }
 
 .reviews__list {
-    margin-bottom: 42px;
+    margin-bottom: 38px;
 }
 
 .reviews__list p {
     font-family: Gotham Pro, sans-serif;
+}
+
+.reviews__list .major-list__avatar {
+    width: 160px;
+    height: 160px;
 }
 

@@ -7,8 +7,8 @@
 .major-list__item {
     display: flex;
     align-items: flex-start;
-    padding-bottom: 20px;
-    margin-bottom: 25px;
+    padding-bottom: 22px;
+    margin-bottom: 27px;
 
     border-bottom: 2px solid #f4f4f4;
 }

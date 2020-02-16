@@ -124,7 +124,7 @@
                                 </li>
                                 <li class="major-list__item">
                                     <div class="major-list__avatar major-list__avatar--no-avatar">
-                                        <img src="img/review_without_photo.jpg.png" alt="Аватар" class="major-list__avatar-img">
+                                        <img src="img/review_without_photo.png" alt="Аватар" class="major-list__avatar-img">
                                     </div>
                                     <div class="major-list__content">
                                         <time>22.12.2015</time>
@@ -178,6 +178,53 @@
                                 </div>
                             </div>
                         </section>
+
+                        <section class="feedback">
+                            <div class="container container--flex">
+                                <div class="feedback__frame">
+                                    <h2 class="section-title section-title--margin--xxs">Оставить отзыв</h2>
+                                    <form action="#" class="form" method="POST">
+                                        <div class="form__group">
+                                            <div class="form__group-left">
+                                                <label class="form__input-label" for="name">Ваше имя</label>
+                                                <input class="form__input" type="text" name="name" id="name" placeholder="Андрей">
+                                            </div>
+                                            
+                                            <div class="form__group-right">
+                                                <label class="form__input-label" for="vk_link">Ссылка на профиль VK</label>
+                                                <input class="form__input" type="url" name="vk_link" id="vk_link" placeholder="vk.com/example">
+                                            </div>
+                                            
+                                        </div>
+                                    
+                                        <div class="form__group">
+                                            <label class="form__textarea-label" for="feedback_text">Текст отзыва</label>
+                                            <textarea class="form__textarea" rows="5" name="feedback_text" id="feedback_text">Мне понравилось</textarea>
+                                        </div>
+                                    
+                                        <div class="form__group">
+                                            <div class="form__radio-area">
+                                                <span class="form__radio-text">Отображать фото в отзыве?</span>
+            
+                                                <label class="form__radio">
+                                                <input type="radio" name="question-photo" id="radio_yes" value="yes" checked>
+                                                <div class="form__radio-visible"></div>
+                                                <span class="form__radio-var">Да</span>
+                                                </label>
+                                                
+                                                <label class="form__radio">
+                                                <input type="radio" name="question-photo" id='radio_no' value="no">
+                                                <div class="form__radio-visible"></div>
+                                                <span class="form__radio-var">Нет</span>
+                                                 </label>
+                                            </div>
+            
+                                            <input class='btn' type="submit" value="Отправить">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
                     </main>
                 </div>
             </div>
@@ -189,53 +236,6 @@
                     </p>
                 </div>
             </section> -->
-
-            <section class="feedback">
-                <div class="container container--flex">
-                    <div class="feedback__frame">
-                        <h2 class="section-title section-title--margin--xxs">Оставить отзыв</h2>
-                        <form action="#" class="form" method="POST">
-                            <div class="form__group">
-                                <div class="form__group-left">
-                                    <label class="form__input-label" for="name">Ваше имя</label>
-                                    <input class="form__input" type="text" name="name" id="name" placeholder="Андрей">
-                                </div>
-                                
-                                <div class="form__group-right">
-                                    <label class="form__input-label" for="vk_link">Ссылка на профиль VK</label>
-                                    <input class="form__input" type="url" name="vk_link" id="vk_link" placeholder="vk.com/example">
-                                </div>
-                                
-                            </div>
-                        
-                            <div class="form__group">
-                                <label class="form__textarea-label" for="feedback_text">Текст отзыва</label>
-                                <textarea class="form__textarea" rows="5" name="feedback_text" id="feedback_text">Мне понравилось</textarea>
-                            </div>
-                        
-                            <div class="form__group">
-                                <div class="form__radio-area">
-                                    <span class="form__radio-text">Отображать фото в отзыве?</span>
-
-                                    <label class="form__radio">
-                                    <input type="radio" name="question-photo" id="radio_yes" value="yes" checked>
-                                    <div class="form__radio-visible"></div>
-                                    <span class="form__radio-var">Да</span>
-                                    </label>
-                                    
-                                    <label class="form__radio">
-                                    <input type="radio" name="question-photo" id='radio_no' value="no">
-                                    <div class="form__radio-visible"></div>
-                                    <span class="form__radio-var">Нет</span>
-                                     </label>
-                                </div>
-
-                                <input class='btn' type="submit" value="Отправить">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
             
         </div>
 

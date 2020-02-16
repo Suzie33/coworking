@@ -1,11 +1,10 @@
 .feedback {
-    padding-bottom: 49px;
+    padding-bottom: 47px;
 }
 
 .feedback__frame {
-    padding: 35px 69px 51px;
-    margin: auto;
-    width: 700px;
+    padding: 35px 100px 51px;
+    width: 768px;
 
     background-color: #f4f4f4;
     border-radius: 2px;
