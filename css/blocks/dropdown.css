@@ -13,6 +13,7 @@
 .dropdown__link:hover {
     color: #8580ae;
     transition: .3s;
+    cursor: pointer;
 }
 
 .dropdown__block {
