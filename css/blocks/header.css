@@ -6,5 +6,9 @@
 }
 
 .header--margin-buttom {
-    margin-bottom: 33px;
+    margin-bottom: 37px;
+}
+
+.header--margin-buttom--s {
+    margin-bottom: 23px;
 }
