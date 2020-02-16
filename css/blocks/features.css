@@ -7,7 +7,6 @@
 }
 
 .features__item {
-    padding-left: 20px;
     margin-right: 36px;
     width: 238px;
 
@@ -85,8 +84,8 @@
 
 .features__item--top {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-top: 23px;
+    padding-bottom: 21px;
     margin-bottom: 25px;
 }
 

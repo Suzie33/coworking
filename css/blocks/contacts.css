@@ -5,6 +5,10 @@
 
 .contacts__tel {
     color: #fff;
-    font-style: 21px;
+    font-size: 21px;
     font-weight: bold;
+}
+
+.contacts__workhours {
+    line-height: 1em;
 }
