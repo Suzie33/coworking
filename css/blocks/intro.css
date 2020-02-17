@@ -7,7 +7,7 @@
     background-size: cover;
 }
 
-.intro:after {
+.intro::before {
     content: "";
     display: block;
     position: absolute;
