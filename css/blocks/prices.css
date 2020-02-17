@@ -51,46 +51,24 @@
     margin-bottom: 23px;
     border-radius: 3px;
     overflow: hidden;
+    background-color: rgba(43, 43, 64, 0.85);
+    z-index: 2;
 }
 
-.prices__picture-img {
+.prices__img {
     width: 100%;
     height: 167px;
 
-    background: url("../../img/prices1.jpg") no-repeat 50% 50%;
-    background-size: cover;
+    object-fit: cover;
 }
 
-.prices__picture-img:after {
+.prices__picture:after {
     content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     display: block;
     width: 100%;
     height: 100%;
     background-color: rgba(43, 43, 64, 0.85);
 }
-
-.prices__picture-img--img2 {
-    background: url("../../img/prices2.jpg") no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.prices__picture-img--img3 {
-    background: url("../../img/prices3.jpg") no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.prices__picture-img--img4 {
-    background: url("../../img/prices4.jpg") no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.prices__picture-img--img5 {
-    background: url("../../img/prices5.jpg") no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.prices__picture-img--img6 {
-    background: url("../../img/prices6.jpg") no-repeat 50% 50%;
-    background-size: cover;
-}
-
