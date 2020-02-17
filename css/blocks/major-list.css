@@ -1,5 +1,5 @@
 .major-list {
-    margin-bottom: 58px;
+    margin-bottom: 41px;
 
     font-family: "Roboto", sans-serif;
 }
@@ -8,7 +8,7 @@
     display: flex;
     align-items: flex-start;
     padding-bottom: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
 
     border-bottom: 2px solid #f4f4f4;
 }
@@ -20,10 +20,13 @@
 }
 
 .major-list__avatar {
-    width: 160px;
-    height: 160px;
+    width: 177px;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.major-list__avatar-img {
+    object-fit: cover;
 }
 
 .major-list__avatar--no-avatar {
@@ -39,12 +42,12 @@
 }
 
 .major-list__content {
-    padding-left: 20px;
-    width: 720px;
+    padding-left: 25px;
+    width: 706px;
 }
 
 .major-list__content time {
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     display: block;
 
     font-weight: 300;

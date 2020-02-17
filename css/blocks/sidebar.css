@@ -1,0 +1,17 @@
+.sidebar {
+    width: 25.5%;
+    padding-right: 21px;
+    padding-top: 13px;
+}
+
+.sidebar__title {
+    margin-bottom: 26px;
+    display: inline-block;
+
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sidebar__title--margin--l {
+    margin-bottom: 45px;
+}

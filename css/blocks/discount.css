@@ -1,9 +1,13 @@
 .discount {
-    padding-top: 40px;
-    padding-bottom: 45px;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 25px;
 
-    background: #27283d url("../../img/discount_bg.png") no-repeat 50% 50%;
-
+    background: #27283d url("../../img/discount_bg.png") no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
 .discount__text {
